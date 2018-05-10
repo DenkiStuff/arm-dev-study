@@ -1,0 +1,17 @@
+
+
+core files
+startup_stm32f103xb.s
+Src\system_stm32f1xx.c			
+main.c
+Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h
+Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+Drivers\CMSIS\Include\core_cm3.h
+core_cmInstr.h
+cmsis_gcc.h
+core_cmFunc.h
+
+
+STM custom includes
+Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h  <-- Edit to select chip
+STM32F103RBTx_FLASH.ld
