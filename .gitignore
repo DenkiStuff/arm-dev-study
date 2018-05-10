@@ -1,0 +1,7 @@
+*.elf
+*.o
+*.bin
+*.sh
+!scripts/*.sh
+*.map
+*.hex
