@@ -1,0 +1,27 @@
+
+Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
+Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+stm32f1xx_hal_def.h
+
+Inc\stm32f1xx_hal_conf.h
+Inc\main.h
+stm32f1xx_hal_rcc.h
+stm32f1xx_hal_rcc.c
+stm32f1xx_hal_rcc_ex.h
+stm32f1xx_hal_rcc_ex.c
+
+stm32f1xx_hal_gpio.h
+stm32f1xx_hal_gpio.c
+stm32f1xx_hal_gpio_ex.h
+stm32f1xx_hal_gpio_ex.h
+
+stm32f1xx_hal_flash
+stm32f1xx_hal_flash_ex
+
+stm32f1xx_hal_cortex
+
+can replace:
+#include "stm32f103xb.h"
+with
+#include "stm32f1xx_hal.h"
+HAL includes base <device>.h file

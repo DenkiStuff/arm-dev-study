@@ -25,15 +25,8 @@ int main()
 	MX_GPIO_Init();
 
 	while(1){
-		int i;
-		for (i = 0; i <= 262143; i++)
-			{}
-		//*GPIOA_BSR = 0x20;
-		GPIOA->BSRR = 0x20;
-
-		for (i = 0; i <= 262143; i++)
-			{}
-		//*GPIOA_BRR = 0x20;
-		GPIOA->BRR = 0x20;
+	    int i;
+	    for (i = 1; i <= 262143; i++){};
+	    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	};
 }
